@@ -42,7 +42,7 @@ async function start() {
 
 
 
-          await fastify.listen({ port: 3000, host: '127.0.0.1' });
+          await fastify.listen({ port: 3000, host: '0.0.0.0' });
           console.log("Server running on port 3000");
 
 
